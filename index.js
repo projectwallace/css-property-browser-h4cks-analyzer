@@ -11,8 +11,7 @@ module.exports = property => {
 	const browserPrefixRegex = /^-(?!-|webkit-|moz-|ms-|o-)/
 
 	return (
-		startCharacters.some(character => {
-			return property.startsWith(character)
-		}) || browserPrefixRegex.test(property)
+		startCharacters.some(character => property.startsWith(character)) ||
+		browserPrefixRegex.test(property)
 	)
 }
