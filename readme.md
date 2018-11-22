@@ -1,4 +1,4 @@
-# css-property-hacks-analyzer [![Build Status](https://travis-ci.org/bartveneman/css-property-hacks-analyzer.svg?branch=master)](https://travis-ci.org/bartveneman/css-property-hacks-analyzer) [![Known Vulnerabilities](https://snyk.io/test/github/bartveneman/css-property-hacks-analyzer/badge.svg)](https://snyk.io/test/github/bartveneman/css-property-hacks-analyzer) ![Dependencies Status](https://img.shields.io/david/bartveneman/css-property-hacks-analyzer.svg) ![Dependencies Status](https://img.shields.io/david/dev/bartveneman/css-property-hacks-analyzer.svg) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+# css-property-browser-h4cks-analyzer [![Build Status](https://travis-ci.org/bartveneman/css-property-browser-h4cks-analyzer.svg?branch=master)](https://travis-ci.org/bartveneman/css-property-browser-h4cks-analyzer) [![Known Vulnerabilities](https://snyk.io/test/github/bartveneman/css-property-browser-h4cks-analyzer/badge.svg)](https://snyk.io/test/github/bartveneman/css-property-browser-h4cks-analyzer) ![Dependencies Status](https://img.shields.io/david/bartveneman/css-property-browser-h4cks-analyzer.svg) ![Dependencies Status](https://img.shields.io/david/dev/bartveneman/css-property-browser-h4cks-analyzer.svg) [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 A list of tests to determine whether a property is a browser hack, derived from
 the formidable [browserhacks.com](https://browserhacks.com)
@@ -7,17 +7,17 @@ the formidable [browserhacks.com](https://browserhacks.com)
 ## Installation
 
 ```bash
-npm install css-property-hacks-analyzer
+npm install css-property-browser-h4cks-analyzer
 
 # or
 
-yarn add css-property-hacks-analyzer
+yarn add css-property-browser-h4cks-analyzer
 ```
 
 ## Usage
 
 ```js
-const isBrowserHack = require('css-property-hacks-analyzer')
+const isBrowserHack = require('css-property-browser-h4cks-analyzer')
 
 // CSS declaration example => .selector { _property: value; }
 console.log(isBrowserHack('_property'))
