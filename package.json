@@ -39,5 +39,8 @@
   "xo": {
     "semicolon": false,
     "prettier": true
+  },
+  "dependencies": {
+    "vendor-prefixes": "^1.0.0"
   }
 }
