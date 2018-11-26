@@ -1,6 +1,6 @@
 {
   "name": "css-property-browser-h4cks-analyzer",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A list of tests to determine whether a CSS property is considered a browser hack",
   "main": "index.js",
   "engines": {
